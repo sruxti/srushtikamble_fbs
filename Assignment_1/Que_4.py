@@ -1,0 +1,9 @@
+#WAP TO ENTER P,T,R AND CALCULATE SIMPLE INTEREST
+
+p = float(input("Enter principle: "))
+r = float(input("Enter rate: "))
+t = float(input("Enter time: "))
+
+si = (p * r * t) / 100
+
+print("Simple Interest =",   si)
